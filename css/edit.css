@@ -1,0 +1,38 @@
+body {
+  background-color:  #679289;
+}
+
+.letter {
+    width: 550px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    font-family: 'Georgia', serif;
+  }
+  
+  .letter .salutation {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  .letter .message {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .letter .reasons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .letter .reasons li {
+    padding: 5px 0;
+  }
+  
+  .letter .closing {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
